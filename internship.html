@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="intern.css">
+        <script type=text/javascript src="int.js"></script>
+    </head>
+    <body>
+        <h1> Registration Form</h1>
+        <div id="form">
+            <form action="tab.html">
+                <div class="ex" id="col1">
+                <label for="fname"> First Name</label><br>
+                <input type="text" name="fname" id="fname"   required><br>
+                <label for="lname"> Last Name</label><br>
+                <input type="text" id="lname" name="lname"  required>
+                </div>
+                
+                <div class="ex" id="col2">
+                <label for="Id"> Employee Id</label><br>
+                <input type="text" id="Id" name="Id"  required>
+                </div>
+                
+                <div class="ex" id="col3">
+                <label for="department"> Department </label><br>
+                <select id="department" name="department" required>
+                    <option> computer Science </option>
+                    <option> Mechanical Engineer</option>
+                    <option> Electronics and comuni</option>
+                    <option> Civil Engineering</option>
+                    <option> Production Engineering</option>
+                    <option> chemichal Engineering</option>
+                    <option> Faculty Engineering</option>
+                </select>
+                </div>
+                
+                <div class="ex" id="col4">
+                <label for="email"> Email id</label><br>
+                <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="ex" id="col5">
+                <label for="doj">Date of Joining</label><br>
+                <input type="date" id="doj" name="doj" required>
+                </div>
+                
+                <div class="ex" id="col6">
+                <label for="submit"></label>
+                <input name="submit" type="submit" id="submit" onclick="AddRow()">
+                <label for="clear"></label>
+                <input type="reset" value="clear"  name="clear" id="clear">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
